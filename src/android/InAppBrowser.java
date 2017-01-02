@@ -774,7 +774,7 @@ public class InAppBrowser extends CordovaPlugin {
 
                 // Add the views to our toolbar
                 //toolbar.addView(actionButtonContainer); //Commented by Pradeep for modification
-                toolbar.addView(); //Edited by Pradeep for modification
+                 //toolbar.addView(edittext); //Commented by Pradeep for modification
                 toolbar.addView(close);
 
                 // Don't add the toolbar if its been disabled
